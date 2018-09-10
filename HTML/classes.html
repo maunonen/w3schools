@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+	background-color: tomato;
+	color: white;
+	padding: 10 px;
+}
+</style>
+<script type="text/javascript">
+
+function myFunction()
+{
+	var x = document.getElementsByClassName("city");
+	for (var i = 0; i< x.length; i++){
+		
+		x[i].style.display = "none";
+		
+	}
+	
+	}
+</script>
+
+<!--  Elements may have more one class city main -->
+
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<button onclick="myFunction()">Hide Elements</button>
+	<h2 class="city main">London</h2>
+	<p>London is the capital on England</p>
+
+	<h2 class="city">London</h2>
+	<p class = "city">Paris is the capital on England</p>
+
+	<h2 class="city">London</h2>
+	<p>Tokyo is the capital on England</p>
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+	function helloworld() {
+
+		document.getElementById("demo").innerHTML = "Hello JavaScript";
+		document.getElementById("demo").style.fontSize = "25px";
+		document.getElementById("demo").style.color = "red";
+		document.getElementById("demo").style.backgroundColor = "yellow";
+
+	}
+	
+	function light(sw){
+		
+		var pic	;
+		
+		if (sw == 0 ){
+			pic = "../img/1.jpg"; 	
+			
+		} else {
+			
+			pic = "../img/2.jpg"; 	
+			
+		}
+		document.getElementById("myImage").src = pic; 
+		
+	}
+	
+</script>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div></div>
+	<button onclick="helloworld()">Demo</button>
+	<p id="demo">DEMO</p>
+
+	</div>
+	<div>
+		<img id="myImage" src="../img/1.jpg" width="100px">
+		<p>
+			<button type="button" onclick="light(1)">Light on</button>
+			<button type="button" onclick="light(0)">Light off</button>
+		</p>
+	
+	</div>
+	
+</body>
+</html>
