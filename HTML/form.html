@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Input element</h1>
+	<form>
+		First name: <br> <input type="text" name="firstname"><br>
+		Last name: <br> <input type="text" name="lastname"><br>
+	</form>
+	<h1>Radio button input</h1>
+
+	<form>
+		<input type="radio" name="gender" value="male" checked>Male<br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio" name="gender" value="other">Other
+	</form>
+	<h1>Button</h1>
+	<form action="/action_page.php" target="_blank" method="post">
+		First name:<br> <input type="text" name="firstname"
+			value="Mickey"><br> Las name:<br> <input
+			type="text" name="lastname" value="Mouse"><br> <br>
+		<input type="button" value="Submit">
+	</form>
+	<form>
+		<fieldset>
+			<legend>Personal information</legend>
+			First name: <br> <input type="text" name="firstname"
+				value="Mickey"> <br> First name: <br> <input
+				type="text" name="firstname" value="Mickey"><br> <input
+				type="submit" value="Submit"><br>
+		</fieldset>
+		<select name="cars" size="4" multiple>
+			<option value="volvo" selected>Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="fiat">Fiat</option>
+			<option value="audi">Audi</option>
+
+		</select>
+
+		<textarea name="message" rows="10" cols="30">
+			The cat was playing in he garden.
+			
+		</textarea>
+		<br> <br>
+		<button type="button" onclick="alert('Hello world')">CLick me</button>
+
+
+	</form>
+	<form action="/action_page.php">
+		<input list="browesers">
+		<datalist id="browesers">
+			<option value="FireFox">
+			<option value="Chrome">
+			<option value="Opera">
+			<option value="Safari">
+		</datalist>
+	</form>
+
+</body>
+</html>
