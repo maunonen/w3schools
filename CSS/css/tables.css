@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#customers tr:nth-child(even) {
+	background-color: red;
+}
+#customers tr:hover {background-color: blue;}
+
+#customer th{
+	padding-top: 12px;
+	padding-bottm: 12px;
+	text-align: left; 
+	background-color: green; 
+	color:white; 
+}
+td {
+	text-align: center; 
+	vertical-align: center; 
+	height: 50px;
+	padding: 15px; 
+	
+}
+table {
+	/*
+	border-collapse: collapse; 
+	*/
+	border-bottom: 1px solid black; 
+	/*
+	border: 1px solid black; 
+	*/
+	width: 100%; 
+	 
+}
+div {
+	overflow-x: auto; 
+}
+li {
+	display: inline; 
+	padding: 15px; 
+}
