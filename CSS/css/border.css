@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+p.one{
+	border-style: solid;
+	border-width: 5px;
+	border-color: red; 
+}
+p.two {
+	border-style:solid;
+	border-width: medium; 
+	border-color: green; 
+}
+p.three {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: red green blue yellow; 
+}
+p.four {
+	border-style: dotted; 
+	border-width: thick; 
+}
+
+p.five {
+	
+	border: 15px solid; 
+	/*
+	border-style: doble;
+	
+	border-width: 15px;
+	*/
+}
+p.six {
+	border-style: doble;
+	border-width: thick;
+}
+p.seven {
+	border-style: solid;
+	border-width: 2px 10 px 4px 20 px;
+}
+
+p {
+	border-top-style: dotted;
+	border-right-style: solid;
+	border-bottom-style:dotted;
+	border-left-style:6 px solid red;
+	
+
+}

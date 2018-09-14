@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+a:link, a:visited {
+	color:#80e9de;
+	text-decoration: none;
+	background-color:yellow;
+	display:inline-block; 
+}
+
+a:hover, a:active  {
+	
+	background-color: red; 
+	list-style-position: inside; 
+}
+
+ul.a {
+	list-style-type: cirlce; 
+	list-style-position:outside; 
+}
+ul.b {
+	list-style-type: upper-roman; 
+	list-style-position: outside;
+}
+ol.c {
+	list-style: square inside; 
+}
+ol.d {
+	list-style-type: none; 
+	background-color: red; 
+	list-style-position: inside; 
+	padding: 20px; 
+}
+ol.d li {
+	background-color: green; 
+	padiing: 5px; 
+	margin: 5px; 
+}
