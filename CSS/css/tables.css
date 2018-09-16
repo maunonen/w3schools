@@ -37,3 +37,16 @@ li {
 	display: inline; 
 	padding: 15px; 
 }
+
+div.ex1{
+	width: 500px; 
+	margin:auto;
+	border: 3px solid red; 
+}
+div.ex2 {
+	max-width: 500px; 
+	margin:auto; 
+	border: 3px solid red; 
+	
+}
+

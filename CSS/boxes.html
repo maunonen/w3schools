@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/boxes.css">
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Grid of Boxes</h2>
+	<p>Float boxes side by side:</p>
+
+	<div class="clearfix">
+		<div class="box" style="background-color: #bbb">
+			<p>Some text inside the box.</p>
+		</div>
+		<div class="box" style="background-color: #ccc">
+			<p>Some text inside the box.</p>
+		</div>
+		<div class="box" style="background-color: #ddd">
+			<p>Some text inside the box.</p>
+		</div>
+
+
+	</div>
+
+	<p>Note that we also use the clearfix hack to take care of the
+		layout flow, and that add the box-sizing property to make sure that
+		the box doesn't break due to extra padding. Try to remove this code to
+		see the effect.</p>
+
+	<div class="clearfix">
+		<div class="img-container">
+			<img src="../img/1.jpg" alt="Italy" style="width: 100%">
+		</div>
+		<div class="img-container">
+			<img src="../img/2.jpg" alt="Forest" style="width: 100%">
+		</div>
+		<div class="img-container">
+			<img src="../img/3.jpg" alt="Mountains" style="width: 100%">
+		</div>
+	</div>
+	<h1>FLEX container</h1>
+	<div class="flex-container">
+		<div class="box_flex" style="background-color:red">Box 1 - This is some text to make sure that the
+			content gets really tall. This is some text to make sure that the
+			content gets really tall.</div>
+		<div class="box_flex" style="background-color:green">Box 2 - My height will follow Box 1.</div>
+	</div>
+
+</body>
+</html>
