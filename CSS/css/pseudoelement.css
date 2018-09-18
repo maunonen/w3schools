@@ -1,0 +1,29 @@
+@charset "UTF-8";
+p::first-line {
+	color: red;
+	font-varient: small-caps; 
+}
+p.intro::first-letter {
+	color: blue; 
+	font-size: xx-large; 
+}
+h1::before {
+	content: url('../../img/1.jpg');
+	
+}
+h1::before {
+	
+}
+
+h1::after {
+	content: url('../../img/2.jpg'); 
+}
+
+::-moz-selection {
+	color: red; 
+	background: yellow; 
+}
+::selection {
+	color: red; 
+	backgground: yellow; 
+}

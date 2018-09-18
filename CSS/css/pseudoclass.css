@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div.mover {
+	background-color: green; 
+	color: white; 
+	padding: 25px; 
+	text-align: center; 
+}
+div.mover:hover {
+	background-color:blue; 
+}
+
+
+a.highlight:hover {
+	color: red; 
+}
+
+div.ptogle p {
+	display: none; 
+	background-color: green; 
+	padding: 20px; 
+}
+div.ptogle:hover p{
+	display: block; 
+}
+div p:first-child {
+	color: red; 
+}
+q:lang(no) {
+	quotes: "~" "~";
+}
