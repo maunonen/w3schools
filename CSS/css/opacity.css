@@ -1,0 +1,20 @@
+@charset "UTF-8";
+div {
+	background-color: rgb(76, 175, 80);
+	padding: 10px;
+}
+div.first {
+	background:rgb(76, 175, 80, 0.1); 
+		//opacity: 0.1; 
+	//filter: alpha(opacity=10); 
+}
+div.second{
+	background:rgb(76, 175, 80, 0.3); 
+	//opacity: 0.3; 
+	//filter: alpha(opacity=30); 
+}
+div.third {
+	background:rgb(76, 175, 80, 0.6); 
+	//opacity: 0.6;
+	//filter: alpha(opacity=60);
+}
