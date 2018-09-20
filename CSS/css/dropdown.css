@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.dropdown {
+	position: relative; 
+	display: inline-block; 
+	
+}
+.dropdown-content {
+	display: none; 
+	position: absolute; 
+	background-color: grey; 
+	box-shadow: 0px 8px 16px 0px red;
+	width: 100%; 
+	padding: 12px 16px; 
+	z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+	display:block; 
+}
